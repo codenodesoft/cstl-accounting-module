@@ -12,6 +12,7 @@ import org.soptorshi.service.extended.DtTransactionExtendedService;
 import org.soptorshi.service.extended.JournalVoucherExtendedService;
 import org.soptorshi.service.mapper.DtTransactionMapper;
 import org.soptorshi.utils.SoptorshiUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.persistence.EntityManager;
