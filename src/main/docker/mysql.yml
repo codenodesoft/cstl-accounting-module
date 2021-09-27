@@ -7,7 +7,7 @@ services:
         environment:
             - MYSQL_USER=root
             - MYSQL_ALLOW_EMPTY_PASSWORD=yes
-            - MYSQL_DATABASE=soptorshi
+            - MYSQL_DATABASE=soptorshi_accounting
         ports:
             - 3313:3306
         cap_add:
