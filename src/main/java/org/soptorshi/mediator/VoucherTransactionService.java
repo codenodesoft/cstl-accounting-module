@@ -39,6 +39,8 @@ public class VoucherTransactionService {
     private final FinancialAccountYearExtendedRepository financialAccountYearExtendedRepository;
     private final EntityManager entityManager;
 
+    //public VoucherTransactionService(){}
+
     public VoucherTransactionService(JournalVoucherExtendedService journalVoucherExtendedService, JournalVoucherExtendedRepository journalVoucherExtendedRepository, DepreciationMapRepository depreciationMapRepository, MstGroupExtendedRepository groupExtendedRepository, MstAccountExtendedRepository mstAccountExtendedRepository, CurrencyExtendedRepository currencyExtendedRepository, AccountBalanceExtendedRepository accountBalanceExtendedRepository, DtTransactionExtendedService dtTransactionExtendedService, DtTransactionExtendedRepository dtTransactionExtendedRepository, DtTransactionMapper dtTransactionMapper, FinancialAccountYearExtendedRepository financialAccountYearExtendedRepository, EntityManager entityManager) {
         this.journalVoucherExtendedService = journalVoucherExtendedService;
         this.journalVoucherExtendedRepository = journalVoucherExtendedRepository;
